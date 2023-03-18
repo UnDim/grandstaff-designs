@@ -1,9 +1,9 @@
 {
-  "name": "node-js-getting-started",
+  "name": "grandstaff-designs",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Website for Grandstaff Designs.",
   "engines": {
-    "node": "18.x || 16.x"
+    "node": "19.x"
   },
   "main": "index.js",
   "scripts": {
