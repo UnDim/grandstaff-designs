@@ -8,17 +8,17 @@ export function sendEmail() {
     Messages: [
       {
         From: {
-          Email: '$SENDER_EMAIL',
-          Name: 'Me',
+          Email: document.getElementById(email).value,
+          Name: document.getElementById(name).value,
         },
         To: [
           {
-            Email: '$RECIPIENT_EMAIL',
-            Name: 'You',
+            Email: 'shannon.odam@icloud.com',
+            Name: 'Grandstaff Designs',
           },
         ],
-        Subject: 'My first Mailjet Email!',
-        TextPart: 'Greetings from Mailjet!',
+        Subject: document.getElementById(subject).value,
+        TextPart: document.getElementById(message).value,
         HTMLPart:
           '<h3>Dear passenger 1, welcome to <a href="https://www.mailjet.com/">Mailjet</a>!</h3><br />May the delivery force be with you!',
       },
